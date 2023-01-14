@@ -1,0 +1,105 @@
+.menu
+    padding: 60px 0 90px 0
+    &-wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__tittle
+        font-style: normal
+        font-weight: 700
+        font-size: 36px
+        line-height: 42px
+        color: #000000
+    .search-form_menu
+        input
+            width: 306px
+            height: 34px
+            padding: 5px 12px 5px 32px
+            background: #FFFFFF
+            border: 1px solid #D9D9D9
+            border-radius: 2px
+    .cards
+        &-wrapper
+            padding-top: 45px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            
+            flex-wrap: wrap
+            a
+                text-decoration: none
+                color: #000000
+        &__item
+            width: 384px
+            min-height: 378px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            background: #FFFFFF
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+            border-radius: 7px
+            margin-bottom: 30px
+        &__info
+            display: flex
+            padding: 20px 24px 35px 24px
+            justify-content: space-between
+            flex-direction: column
+        &__category
+            display: flex
+            justify-content: space-between
+        &_time_delivery
+            display: flex
+            justify-content: space-between
+        &__time
+            width: 55px
+            height: 22px
+            background: #262626
+            border-radius: 2px
+            color: #ffffff
+            padding: 0 8px 0 8px
+            font-style: normal
+            font-weight: 400
+            font-size: 12px
+            line-height: 20px
+        &-category
+            position: relative
+            width: 227.19px
+            display: flex
+            justify-content: space-evenly
+        &__rating
+            font-style: normal
+            font-weight: 700
+            font-size: 18px
+            line-height: 32px
+            color: #FFC107
+            &::before
+                content: ''
+                display: block
+                width: 15px
+                height: 15px
+                background: url(../icons/star/star_icon.svg)
+                position: absolute
+                left: -7.5px
+                top: 8px
+        &__price, &__category
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 32px
+            color: #8C8C8C
+        &__sushi
+            display: flex
+            flex-direction: column
+        &-btns
+            display: flex
+            align-items: center
+            .price
+                margin-left: 32px
+        &__subtittle
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 21px
+
+
+    

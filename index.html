@@ -6,16 +6,177 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery food</title>
+    <link rel="stylesheet" href="css/_bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="icons/logo/logo.svg" alt="logo">
+                    <div class="logo__text">Delivery Food</div>
+                </div>
+                <div class="search">
+                    <form class="search-form" action="action_page.php">
+                        <input type="text" placeholder="Адрес доставки" name="search">
+                    </form>
+                </div>
+                <div class="btns">
+                    <button class="btns__login">
+                        <a href="#">Войти</a>
+                    </button>
+                    <button class="btns__basket">
+                        <a href="#">Корзина</a>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="container">
+            <div class="promo-wrapper">
+                <h1 class="promo__tittle">Онлайн-сервис доставки еды на дом</h1>
+                <div class="promo__subtittle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с
+                    антисептиком</div>
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="container">
+            <div class="menu-wrapper">
+                <h2 class="menu__tittle">Рестораны</h2>
+                <div class="menu-search">
+                    <form class="search-form_menu" action="action_page.php">
+                        <input type="text" placeholder="Поиск блюд и ресторанов" name="search">
+                    </form>
+                </div>
+            </div>
+            <div class="cards-wrapper">
+                <div class="cards__item">
+                    <a href="#">
+                        <img src="img/cards/main/card_1.jpg" alt="" class="cards__img">
+                        <div class="cards__info">
+                            <div class="cards_time_delivery">
+                                <h3 class="cards__tittle">Пицца плюс</h3>
+                                <div class="cards__time">50 мин</div>
+                            </div>
+                            <div class="cards-category">
+                                <div class="cards__rating">4.5</div>
+                                <div class="cards__price">От 900 ₽</div>
+                                <div class="cards__category">Пицца</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards__item">
+                    <a href="tanuki.html">
+                        <img src="img/cards/main/card_2.jpg" alt="" class="cards__img">
+                        <div class="cards__info">
+                            <div class="cards_time_delivery">
+                                <h3 class="cards__tittle">Тануки </h3>
+                                <div class="cards__time">50 мин</div>
+                            </div>
+                            <div class="cards-category">
+                                <div class="cards__rating">4.5</div>
+                                <div class="cards__price">От 900 ₽</div>
+                                <div class="cards__category">Пицца</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards__item">
+                    <a href="#">
+                        <img src="img/cards/main/card_3.jpg" alt="" class="cards__img">
+                        <div class="cards__info">
+                            <div class="cards_time_delivery">
+                                <h3 class="cards__tittle">FoodBand</h3>
+                                <div class="cards__time">50 мин</div>
+                            </div>
+                            <div class="cards-category">
+                                <div class="cards__rating">4.5</div>
+                                <div class="cards__price">От 900 ₽</div>
+                                <div class="cards__category">Пицца</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards__item">
+                    <a href="#">
+                        <img src="img/cards/main/card_4.jpg" alt="" class="cards__img">
+                        <div class="cards__info">
+                            <div class="cards_time_delivery">
+                                <h3 class="cards__tittle">Жадина-пицца</h3>
+                                <div class="cards__time">50 мин</div>
+                            </div>
+                            <div class="cards-category">
+                                <div class="cards__rating">4.5</div>
+                                <div class="cards__price">От 900 ₽</div>
+                                <div class="cards__category">Пицца</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards__item">
+                    <a href="#">
+                        <img src="img/cards/main/card_5.jpg" alt="" class="cards__img">
+                        <div class="cards__info">
+                            <div class="cards_time_delivery">
+                                <h3 class="cards__tittle">Точка еды</h3>
+                                <div class="cards__time">50 мин</div>
+                            </div>
+                            <div class="cards-category">
+                                <div class="cards__rating">4.5</div>
+                                <div class="cards__price">От 900 ₽</div>
+                                <div class="cards__category">Пицца</div>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cards__item">
+                <a href="#">
+                    <img src="img/cards/main/card_6.jpg" alt="" class="cards__img">
+                    <div class="cards__info">
+                        <div class="cards_time_delivery">
+                            <h3 class="cards__tittle">PizzaBurger</h3>
+                            <div class="cards__time">50 мин</div>
+                        </div>
+                        <div class="cards-category">
+                            <div class="cards__rating">4.5</div>
+                            <div class="cards__price">От 900 ₽</div>
+                            <div class="cards__category">Пицца</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer__info">
+                    <div class="logo">
+                        <img src="icons/logo/logo.svg" alt="logo">
+                        <div class="logo__text">Delivery Food</div>
+                    </div>
+                    <ul class="footer__navbar">
+                        <li><a href="#">Ресторанам </a></li>
+                        <li><a href="#">Курьерам</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__socialmedia">
+                    <img src="icons/social_media/instagram_icon.svg" alt="" class="icon_socialmedia">
+                    <img src="icons/social_media/facebook_icon.svg" alt="" class="icon_socialmedia">
+                    <img src="icons/social_media/vk_icon.svg" alt="" class="icon_socialmedia">
+                </div>
+            </div>
 
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>

@@ -110,27 +110,6 @@ body {
   border-radius: 2px;
 }
 
-.promo-wrapper {
-  min-height: 300px;
-  background: #FFF1B8 url(../img/bg_promo.png) top right no-repeat;
-  border-radius: 10px;
-  padding: 70px 600px 70px 70px;
-}
-.promo__tittle {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 39px;
-  line-height: 46px;
-  color: #302C34;
-}
-.promo__subtittle {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #302C34;
-}
-
 .menu {
   padding: 60px 0 90px 0;
 }
@@ -366,4 +345,4 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}/*# sourceMappingURL=style.min.css.map */
+}/*# sourceMappingURL=tanuki.min.css.map */
