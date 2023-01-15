@@ -39,6 +39,14 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
             border-radius: 7px
             margin-bottom: 30px
+            transition: box-shadow 0.5s ease-in-out, scale 0.7s ease-out
+            &:hover
+                    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0,.2 )
+                    scale: 1.01
+        &__img
+            overflow: hidden
+            border-radius: 7px 7px 0px 0px
+
         &__info
             display: flex
             padding: 20px 24px 35px 24px
@@ -93,13 +101,25 @@
         &-btns
             display: flex
             align-items: center
+            margin-top: 25px
+            .btn__buy
+                width: 124px
+                height: 40px
+                background: #1890FF
+                border-radius: 2px
+                border: none
+                a
+                    color: #ffffff
             .price
-                margin-left: 32px
+                margin-left: 32px 
+                font-style: normal
+                font-weight: 700
+                font-size: 20px
+                line-height: 32px
         &__subtittle
             font-style: normal
             font-weight: 400
             font-size: 18px
             line-height: 21px
-
-
+            
     

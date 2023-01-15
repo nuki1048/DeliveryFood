@@ -196,6 +196,19 @@ body {
           box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
   border-radius: 7px;
   margin-bottom: 30px;
+  -webkit-transition: scale 0.7s ease-out, -webkit-box-shadow 0.5s ease-in-out;
+  transition: scale 0.7s ease-out, -webkit-box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out, scale 0.7s ease-out;
+  transition: box-shadow 0.5s ease-in-out, scale 0.7s ease-out, -webkit-box-shadow 0.5s ease-in-out;
+}
+.menu .cards__item:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  scale: 1.01;
+}
+.menu .cards__img {
+  overflow: hidden;
+  border-radius: 7px 7px 0px 0px;
 }
 .menu .cards__info {
   display: -webkit-box;
@@ -288,9 +301,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 25px;
+}
+.menu .cards-btns .btn__buy {
+  width: 124px;
+  height: 40px;
+  background: #1890FF;
+  border-radius: 2px;
+  border: none;
+}
+.menu .cards-btns .btn__buy a {
+  color: #ffffff;
 }
 .menu .cards-btns .price {
   margin-left: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
 }
 .menu .cards__subtittle {
   font-style: normal;
