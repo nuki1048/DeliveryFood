@@ -11,6 +11,7 @@
         line-height: 42px
         color: #000000
     .search-form_menu
+        position: relative
         input
             width: 306px
             height: 34px
@@ -21,11 +22,11 @@
     .cards
         &-wrapper
             padding-top: 45px
-            display: flex
-            justify-content: space-between
-            align-items: center
-            
-            flex-wrap: wrap
+            display: grid
+            grid-template: repeat(2,minmax(380px,auto)) / repeat(3,385px)
+            gap: 25px 30px
+            grid-auto-rows: minmax(380px,auto) 
+            grid-auto-columns: 385px
             a
                 text-decoration: none
                 color: #000000
@@ -64,7 +65,7 @@
             background: #262626
             border-radius: 2px
             color: #ffffff
-            padding: 0 8px 0 8px
+            padding: 2px 7px 
             font-style: normal
             font-weight: 400
             font-size: 12px
@@ -122,4 +123,10 @@
             font-size: 18px
             line-height: 21px
             
+    .icon-search
+        &::before
+            position: absolute
+            left: 9px 
+            top: 9px
+
     

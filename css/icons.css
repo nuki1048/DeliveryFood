@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "deliveryIcons";
-	src: url(".../fonts/deliveryIcons.eot?uo7h8v");
-	src: url(".../fonts/deliveryIcons.eot?uo7h8v#iefix") format("embedded-opentype"),
-		url(".../fonts/deliveryIcons.ttf?uo7h8v") format("truetype"),
-		url(".../fonts/deliveryIcons.woff?uo7h8v") format("woff"),
-		url(".../fonts/deliveryIcons.svg?uo7h8v#deliveryIcons") format("svg");
+	src: url("../fonts/deliveryIcons.eot?uo7h8v");
+	src: url("../fonts/deliveryIcons.eot?uo7h8v#iefix") format("embedded-opentype"),
+		url("../fonts/deliveryIcons.ttf?uo7h8v") format("truetype"),
+		url("../fonts/deliveryIcons.woff?uo7h8v") format("woff"),
+		url("../fonts/deliveryIcons.svg?uo7h8v#deliveryIcons") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;

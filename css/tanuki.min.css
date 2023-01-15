@@ -35,6 +35,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
+  color: #000000;
 }
 .header .logo__text {
   padding: 12px;
@@ -101,6 +103,12 @@ body {
 .header .btns__basket a::hover {
   text-decoration: underline;
 }
+.header .btns .icon-user::before, .header .btns .icon-busket::before {
+  padding-right: 4px;
+}
+.header .search-form {
+  position: relative;
+}
 .header .search-form input {
   width: 690px;
   height: 40px;
@@ -108,6 +116,13 @@ body {
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   border-radius: 2px;
+  padding: 8px 12px 8px 32px;
+}
+.header .search .icon-home::before {
+  left: 12px;
+  content: "\e901";
+  position: absolute;
+  top: 12px;
 }
 
 .menu {
@@ -131,6 +146,9 @@ body {
   line-height: 42px;
   color: #000000;
 }
+.menu .search-form_menu {
+  position: relative;
+}
 .menu .search-form_menu input {
   width: 306px;
   height: 34px;
@@ -141,17 +159,11 @@ body {
 }
 .menu .cards-wrapper {
   padding-top: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: grid;
+  grid-template: repeat(2, minmax(380px, auto))/repeat(3, 385px);
+  gap: 25px 30px;
+  grid-auto-rows: minmax(380px, auto);
+  grid-auto-columns: 385px;
 }
 .menu .cards-wrapper a {
   text-decoration: none;
@@ -224,7 +236,7 @@ body {
   background: #262626;
   border-radius: 2px;
   color: #ffffff;
-  padding: 0 8px 0 8px;
+  padding: 2px 7px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -305,6 +317,11 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+.menu .icon-search::before {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
 
 .footer {
   min-height: 150px;
@@ -364,6 +381,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #000000;
 }
 .footer__socialmedia {
   display: -webkit-box;
